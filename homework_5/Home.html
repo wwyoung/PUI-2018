@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    <div id="container">
+        <!--Menu Bar.
+        Can be reused in other pages.
+        Each element is assigned a 'state': active or not, to indicate user's current location.-->
+        <div id="heading">
+            <ul>
+                <li id="bun"><a class="active" href="Home.html">BUN BUN BAKE</a></li>
+                <li id="cart"><a href="cart.html"><img id="cartpic" src="1_objects.png"></a></li>
+                <li id="about"><a href="About.html">ABOUT</a></li>
+                <li id="shop"><a href="Product Browsing and Detail Page(popup) in-combined.html">SHOP</a></li>
+                <li id="home"><a class="active" href="Home.html">HOME</a></li>
+            </ul>
+        </div>
+        <!--Main body of homepage.
+        Main body is divided into two parts: left part, which is for picture;
+        Right part, which is for shop information-->
+        <div id="content_body">
+            <div id="bunbun">
+                <img id="bunbunpic" src="bunbun.png">
+            </div>
+            <div id="content">
+                <p id="rolls">Homemade Cinnamon Rolls</p>
+                <p id="name">BUN BUN BAKE</p>
+                <table id="location" align="center">
+                    <tr>
+                        <td><img id="locpic" src="location.png"></td>
+                        <td><p id="location1">Pittsburgh &ensp;</p></td>
+                    </tr>
+                </table>
+                <div id="shop_now">
+                    <a id="shop_now1" href="Product Browsing and Detail Page(popup) in-combined.html">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

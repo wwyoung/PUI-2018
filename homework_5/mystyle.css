@@ -1,0 +1,369 @@
+/*general setting for all pages*/
+body {
+    margin: 0px auto;
+    width: 1440px;
+    height: 1024px;
+}
+@font-face {
+    font-family: BradleyHandITCTT;
+    src: url("BRADHI.ttf");
+    font-family: Herculanum;
+    src: url("Herculanum.ttf");
+}
+/*all pages: div arrangement for all pages*/
+div#container {
+    width: 1440px;
+    height: 1024px;
+    background-color: transparent;
+}
+div#heading {
+    width: 1440px;
+    height: 72px;
+    background-color: transparent;
+}
+div#content_body {
+    width: 1440px;
+    height: 952px;
+    background-color: transparent;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+/*all pages: styles for div #heading (menu bar)*/
+/*all pages: styles for ul and lis*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+li {
+    height: 64px;
+    line-height: 64px;
+    float: right;
+    padding-top: 6px;
+}
+li a {
+    display: block;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 0px 19px;
+    text-decoration: none;
+}
+.active {
+    color: #4a4a4a;
+    background-color: transparent;
+    text-decoration: none;
+}
+li a:not(.active) {
+    color: #9b9b9b;
+    background-color: transparent;
+    text-decoration: none;
+}
+/*all pages: styles for individual elements within lis*/
+#bun {
+    width: 300px;
+    height: 64px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 28px;
+    color: #9B9B9B;
+    float: left;
+}
+#home {
+    height: 64px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #9B9B9B;
+}
+#shop {
+    height: 64px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #9B9B9B;
+}
+#about {
+    height: 64px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #9B9B9B;
+}
+#cart {
+    padding-top: 14px;
+    height: 64px;
+    padding-right: 21px;
+}
+#cartpic {
+    width: 30px;
+    height: 30px;
+}
+/*home: div arrangement for homepage*/
+div#bunbun {
+    width: 638px;
+    height: 952px;
+    background-color: transparent;
+    float: left;
+}
+div#content {
+    width: 802px;
+    height: 952px;
+    background-color: transparent;
+    float: left;
+}
+/*home: styles for div #bunbun (left part of the main homepage body)*/
+#bunbunpic {
+    width: 100%;
+    height: 100%;
+}
+/*home: styles for div #content (right part of the main homepage body)*/
+p {
+    margin: 0px;
+}
+#rolls {
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 36px;
+    color: #4A4A4A;
+    padding-bottom: 10px;
+    padding-top: 244px;
+}
+#name {
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 64px;
+    color: #4A4A4A;
+    padding-bottom: 84px;
+}
+#location {
+    padding-bottom: 28px;
+}
+#location1 {
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 24px;
+    color: #4A4A4A;
+}
+#locpic {
+    width: 45px;
+    height: 45px;
+}
+a#shop_now1:link, a#shop_now1:visited {
+    background-color: black;
+    padding: 16px 40.5px;
+    font-family: Herculanum;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a#shop_now1:hover, a#shop_now1:active {
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    padding: 14px 38.5px;
+    font-family: Herculanum;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+div #shop_now {
+    display: inline-block;
+}
+/*product browsing page: styles for div .item (individual product information)*/
+div .item {
+    width: 33.333%;
+    float: left;
+}
+div .item p {
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #4A4A4A;
+    padding-top: 8px;
+    padding-bottom: 21px;
+    padding-left: 15px;
+    padding-left: 12px;
+    text-align: left;
+}
+a #item1pic:hover {
+    opacity: 0.5;
+}
+/*product detail page (popup): div arrangement for pop-up*/
+div .popup {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    visibility: visible;
+}
+div .pop_top {
+    width: 768px;
+    height: 30px;
+}
+div .popup_left {
+    width: 303px;
+    height: 495px;
+}
+div .popup_right {
+    width: 388px;
+    height: 434px;
+}
+div .popup_bottom {
+    width: 768px;
+    height: 80px;
+}
+.form_container {
+    margin: auto;
+    width: 768px;
+    height: 615px;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/*detail page: styles for pop-up*/
+.popup_top {
+    padding: 15px 15px;
+    float: right;
+}
+
+.popup_left{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 37px;
+    float: left;
+}
+.popup_right {
+    float: right;
+}
+.popup_bottom {
+    clear: both;
+    padding: 0px;
+}
+/*detail page: styles for pic and text in the left*/
+#item1pic1 {
+    width: 303px;
+    height: 269px;
+}
+#detail_text_1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+#detail_text_2 {
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 14px;
+    color: #4a4a4a;
+    text-align: left;
+}
+/*detail page: styles for attributes on the right*/
+/*detail page: attribute-texts on the right*/
+.attribute {
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+#glazing {
+    width: 374px;
+    padding-top: 70px;
+    padding-left: 10px;
+    float: left;
+}
+#quantity {
+    width: 374px;
+    padding-top: 55px;
+    padding-left: 10px;
+    float: left;
+}
+#price {
+    width: 60px;
+    padding-top: 60px;
+    padding-left: 10px;
+    float: left;
+}
+#number {
+    width: 30px;
+    padding-top: 55px;
+    float: left;
+    font-size: 28px;
+    color: #4a4a4a;
+    font-family: BradleyHandITCTT-Bold;
+}
+/*detail page: attribute-buttons on the right*/
+.active1 {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.not_active1 {
+    background-color: white;
+    border: 1px solid black;
+    color: #4a4a4a;
+}
+#none {
+    padding: 10px 30px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+#choc{
+    padding: 10px 30px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#sugar, #vani {
+    padding: 10px 21.8px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+#one, #two, #three {
+    padding: 10px 22px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+#four {
+    padding: 10px 17px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+/*detail page: styles for add-to-cart button at the bottom*/
+#addtocart {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 80px;
+    font-family: Herculanum;
+    font-size: 24px;
+    text-align: center;
+}
+/*about page: div arrangement for about page*/
+#bigpic {
+    width: 661px;
+    height: 952px;
+    background-color: transparent;
+    float: left;
+}
+#content_1 {
+    width: 779px;
+    height: 952px;
+    background-color: transparent;
+    float: left;
+}
