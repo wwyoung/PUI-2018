@@ -133,6 +133,7 @@ p {
     padding-bottom: 84px;
 }
 #location {
+    margin: auto;
     padding-bottom: 28px;
 }
 #location1 {
@@ -144,6 +145,7 @@ p {
     width: 45px;
     height: 45px;
 }
+/*shop now button (in both home and about page)*/
 a#shop_now1:link, a#shop_now1:visited {
     background-color: black;
     padding: 16px 40.5px;
@@ -366,4 +368,27 @@ div .popup_bottom {
     height: 952px;
     background-color: transparent;
     float: left;
+    padding-top: 145px;
+}
+#intro {
+    margin: auto;
+    width: 521px;
+    text-align: left;
+}
+
+.line1 {
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #4A4A4A;
+    vertical-align: top;
+}
+.line2 {
+    width: 420px;
+    font-family: BradleyHandITCTT-Bold;
+    font-size: 20px;
+    color: #000000;
+    vertical-align: top;
+}
+.row{
+    margin-bottom: 50px;
 }
