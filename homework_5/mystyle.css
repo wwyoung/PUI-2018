@@ -1,3 +1,5 @@
+/* One way to help organize such a large CSS file is to follow some conventions: list generic elements first, sublist with subclasses,
+and alphabetize where possible */
 /*general setting for all pages*/
 body {
     margin: 0px auto;

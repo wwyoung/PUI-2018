@@ -10,6 +10,7 @@
         <!--Menu Bar.
         Can be reused in other pages.
         Each element is assigned a 'state': active or not, to indicate user's current location.-->
+        <!-- KW: I'm not sure what you mean by 'state' here. Which attribute should I be paying attention to?-->
         <div id="heading">
             <ul>
                 <li id="bun"><a class="active" href="Home.html">BUN BUN BAKE</a></li>
@@ -29,6 +30,8 @@
             <div id="content">
                 <p id="rolls">Homemade Cinnamon Rolls</p>
                 <p id="name">BUN BUN BAKE</p>
+                <!-- Do not use a table for formatting page layout. Instead use CSS. This use of tables is
+                problematic for screen readers. See https://www.washington.edu/accessit/print.html?ID=1263-->
                 <table id="location">
                     <tr>
                         <td><img id="locpic" src="location.png" alt="location"></td>
