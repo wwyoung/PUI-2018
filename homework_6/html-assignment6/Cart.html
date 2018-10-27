@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../assets/scripts/shop.js"></script>
+</head>
+<body>
+<div id="container">
+    <!--Menu Bar-->
+    <div id="heading">
+        <ul>
+            <li id="bun"><a class="active" href="../html-assignment5/Home.html">BUN BUN BAKE</a></li>
+            <li id="cart"><a href="Cart.html"><img id="cartpic" src="../assets/images/1_objects.png" alt="cart"></a></li>
+            <li id="about"><a href="../html-assignment5/About.html">ABOUT</a></li>
+            <li id="shop"><a href="../html-assignment5/Browsing-DetailPage(popup).html">SHOP</a></li>
+            <li id="home"><a href="../html-assignment5/Home.html">HOME</a></li>
+        </ul>
+    </div>
+    <!--main body of cart page-->
+    <div id="content_body">
+        <div id="cart_banner"><p id="cart_banner_text">SHOPPING CART</p></div>
+        <div id="cart_body">
+            <div id="cart_left">
+                <div class="cart_labels">
+                    <label class="product-image">Image</label>
+                    <label class="product-item">Item</label>
+                    <label class="product-glazing">Glazing</label>
+                    <label class="product-quantity">Quantity</label>
+                    <label class="product-price">Price</label>
+                    <label class="product-removal">Remove</label>
+                </div>
+                <div class="cart_product">
+                    <div class="product-image">
+                        <img id="product-image-1" src="../assets/images/item1.png" alt="product image">
+                    </div>
+                    <div class="product-item">original roll</div>
+                    <div class="product-glazing">sugar milk</div>
+                    <div class="product-quantity">3</div>
+                    <div class="product-price">9</div>
+                    <div class="remove-product">
+                        <a href="#"><img class="remove-product-1" src="../assets/images/remove.png" alt="removal icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="cart_right">
+                <div id="cart_order_summary">
+                    <div id="order-summary-title"><p>ORDER SUMMARY</p></div>
+                    <div class="order-summary-vacant"></div>
+                    <div class="order-summary-body">
+                       <div class="order-summary-element">
+                           <label>items</label>
+                           <div class="sum_value" id="sum_items">9</div>
+                       </div>
+                       <div class="order-summary-element">
+                           <label>tax</label>
+                           <div class="sum_value" id="sum_tax">1.5</div>
+                       </div>
+                       <div class="order-summary-element">
+                           <label>delivery</label>
+                           <div class="sum_value" id="sum_delivery">7</div>
+                       </div>
+                       <div class="order-summary-vacant"></div>
+                       <div class="order-summary-element">
+                           <label>TOTAL</label>
+                           <div class="sum_value" id="sum_price">17.5</div>
+                       </div>
+                    </div>
+                    <button class="check-out-button">CHECK OUT</button>
+                </div>
+
+                <!--<div id="cart_empty">-->
+                    <!--<div id="empty-image"><img id="empty-image-1" src="../assets/images/empty.png" alt="empty"></div>-->
+                    <!--<div id="empty-text">-->
+                        <!--<p>Oops!</p>-->
+                        <!--<p>Cart is empty…</p>-->
+                    <!--</div>-->
+                    <!--<div id="shop_now">-->
+                        <!--<a id="shop_now1" href="../html-assignment5/Browsing-DetailPage(popup).html">SHOP NOW</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

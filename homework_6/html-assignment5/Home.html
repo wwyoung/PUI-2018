@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="../assets/scripts/shop.js"></script>
+</head>
+<body>
+    <div id="container">
+        <!--Menu Bar.
+        Can be reused in other pages.
+        Each element is assigned a 'state': active or not, to indicate user's current location.-->
+        <div id="heading">
+            <ul>
+                <li id="bun"><a class="active" href="Home.html">BUN BUN BAKE</a></li>
+                <li id="cart"><a href="../html-assignment6/Cart.html"><img id="cartpic" src="../assets/images/1_objects.png" alt="cart"></a></li>
+                <li id="about"><a href="About.html">ABOUT</a></li>
+                <li id="shop"><a href="Browsing-DetailPage(popup).html">SHOP</a></li>
+                <li id="home"><a class="active" href="Home.html">HOME</a></li>
+            </ul>
+        </div>
+        <!--Main body of homepage.
+        Main body is divided into two parts: left part, which is for picture;
+        Right part, which is for shop information-->
+        <div id="content_body">
+            <div id="bunbun">
+                <img id="bunbunpic" src="../assets/images/bunbun.png" alt="bunbun">
+            </div>
+            <div id="content">
+                <p id="rolls">Homemade Cinnamon Rolls</p>
+                <p id="name">BUN BUN BAKE</p>
+                <table id="location">
+                    <tr>
+                        <td><img id="locpic" src="../assets/images/location.png" alt="location"></td>
+                        <td><p id="location1">Pittsburgh &ensp;</p></td>
+                    </tr>
+                </table>
+                <div id="shop_now">
+                    <a id="shop_now1" href="Browsing-DetailPage(popup).html">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
